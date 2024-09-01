@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>My Website</title>
+    <link rel="stylesheet" href="styles.css">
+    
+  </head>
+  <body>
+
+    <h1>Hello</h1>
+
+    <input type="checkbox">
+
+    <button style=":active color:red;" class="back">Click Me</button>
+
+    <ul>
+      <li class="list">
+        <a href="https://www.google.com">Google</a>
+      </li>
+      <li class="list" id="test">Second</li>
+      <li class="list">Third</li>
+    </ul>
+
+  </body>
+  <script>
+
+     document.querySelector('a').attributes;
+    // returns array of ll the attributes for that tag which is everything other than the text
+    document.querySelector('a').getAttribute("href")
+     // this will return the value of a specific attribute by its name
+     document.querySelector('a').setAttribute("href","https://www.youtube.com")
+     // this will change the value of a specific attribute first we specify the name second the new value
+
+
+
+  </script>
+
+</html>

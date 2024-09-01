@@ -1,0 +1,4 @@
+run command "npm init" or "npm init -y"
+in the jason file add "type" :"module" to be able to use import instead of require
+then run the command "npm install <package_name>" or "npm i <package_name>"
+ run the command "npm install" and this will run all needed packages if they are already in dependencies
